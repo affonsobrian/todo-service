@@ -6,3 +6,6 @@ makemigrations:
 
 migrate:
 	python todo_service/manage.py migrate
+
+shell:
+	python todo_service/manage.py shell
